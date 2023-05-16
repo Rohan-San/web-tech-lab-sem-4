@@ -2,13 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home Page!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store!</title>
 </head>
 
-<body>
-    <h1>Hello There!</h1>
-    <hr>
-    <a href="login.html">Login Here!</a>
-    <hr>
-</body>
+<frameset rows="20%,10%,*">
+
+    <frameset cols="20%,*">
+        <frame name="f11" src="logo.html" scrolling="no"></frame>
+        <frame name="f12" src="title.html" scrolling="no"></frame>
+    </frameset>
+    <frameset cols="20%,20%,20%,20%,20%">
+        <frame name="f21" src="home.html"></frame>
+        <frame name="f22" src="login.html"></frame>
+        <frame name="f23" src="registration.html"></frame>
+        <frame name="f24" src="cat.html"></frame>
+        <frame name="f25" src="cart.html"></frame>
+    </frameset>
+    <frameset cols="20%,*">
+        <frame name="f31" src="dept.html"></frame>
+        <frame name="f32" src="homepage.html"></frame>
+    </frameset>
+
+</frameset>
 </html>
