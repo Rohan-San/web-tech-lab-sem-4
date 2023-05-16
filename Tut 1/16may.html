@@ -18,14 +18,34 @@
     <hr>
     <font size="5" face="Times New Roman">Times New Roman</font><br>
     <hr>
+    <div align="center">
+        <marquee width="50%" align="center" bgcolor="lightblue">
+            This is a 50% marquee
+        </marquee>
+    </div>
+    <hr>
     <form>
         First name: <input type="text" name="first_name"/><br>
-        Last name: <input type="text" name="last_name"/>
-    </form>
-    <br>
-    <form>
+        Last name: <input type="text" name="last_name"/><br>
         User ID: <input type="text" name="user_id"/><br>
-        Password: <input type="password" name="password"/>
+        Password: <input type="password" name="password"/><br>
+        Description:<br>
+        <textarea rows="5" cols="50" name="description">
+            Enter description here...
+        </textarea><br>
+        <input type="checkbox" name="maths" value="on">Maths<br>
+        <input type="checkbox" name="physics" value="on">Physics<br>
+        <input type="radio" name="subject" value="maths">Maths<br>
+        <input type="radio" name="subject" value="physics">Physics<br>
+        <input type="radio" name="subject" value="clear">Clear<br>
+        <select name="dropdown">
+            <option value="Maths" selected>Maths</option>
+            <option value="Physics">Physics</option>
+        </select><br>
+        <input type="submit" name="submit" value="Submit"/><br>
+        <input type="reset" name="reset" value="Reset"/><br>
+        <input type="button" name="ok" value="OK"/><br>
+        <input type="image" name="imagebutton" src="https://static.wikia.nocookie.net/tokyo-revengers/images/8/87/Tenjiku.png" width="500"/><br>
     </form>
 </body>
 </html>
