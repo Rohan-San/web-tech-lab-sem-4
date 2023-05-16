@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Frames</title>
+</head>
+
+<frameset cols = "25%,50%,25%">
+    <frame name = "left" src = "/html/top_frame.htm" />
+    <frame name = "center" src = "/html/main_frame.htm" />
+    <frame name = "right" src = "/html/bottom_frame.htm" />
+    
+    <a href="http://www.google.com" target="main_page">Google</a>
+
+    <noframes>
+        <body>
+            Your browser doens't support frames.
+        </body>
+    </noframes>
+</frameset>
+
+</html>
