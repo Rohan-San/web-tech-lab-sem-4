@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;800&display=swap');
+
+h1{
+    color: #EAFFFF;
+    text-decoration:wavy;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    border-width: 1px solid;
+    padding: 10px;
+}
+
+marquee{
+    color: whitesmoke;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+ol{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: cornflowerblue;
+    border-bottom: 4px solid cornflowerblue;
+    border-left: 4px dashed rgb(237, 100, 100);
+    border-right: 4px dashed rgb(237, 100, 100);
+    border-top: 4px dotted cornflowerblue;
+    background-color: #C0A9DB;
+    margin: 10px;
+}
+
+ul{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: cornflowerblue;
+    border-bottom: 4px solid cornflowerblue;
+    border-left: 4px dashed rgb(237, 100, 100);
+    border-right: 4px dashed rgb(237, 100, 100);
+    border-top: 4px dotted cornflowerblue;
+    background-color: #C0A9DB;
+    margin: 10px;
+}
+
+li{
+    text-shadow: 2px 2px lightblue;
+
+    background-size: auto;
+    margin: 15px;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#header{
+    background-color: #1a0030;
+}
+
+.text{
+    display: block;
+    padding: 5px;
+    column-count: 1;
+    column-gap: 50px;
+    box-sizing: 600px 400px;
+    border: 2px dotted black;
+    border-spacing: 5px;
+    background-color: #C0A9DB;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bgimg {
+    background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+    background-color: #cccccc;
+    width: 100%;
+ }
+
+#content{
+    background-color: rgb(216, 185, 230);
+}
+
+#img{
+    text-align: center;
+    font-size:x-large;
+}
