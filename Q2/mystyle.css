@@ -50,7 +50,7 @@ img{
     box-sizing: 600px 400px;
     border: 2px dotted black;
     border-spacing: 5px;
-    background-color: #C0A9DB;
+    background-color: hsl(9,80%,80%);
 }
 
 .center{
