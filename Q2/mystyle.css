@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;800&display=swap');
 
-h1{
-    color: #EAFFFF;
-    text-decoration:wavy;
-    font-family: 'Gemunu Libre', sans-serif;
-    text-align: center;
-    border-width: 1px solid;
-    padding: 10px;
-}
-
-marquee{
-    color: whitesmoke;
-    margin: 10px;
-}
-
 p{
     margin: 10px;
 }
