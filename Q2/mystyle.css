@@ -67,7 +67,7 @@ img{
  }
 
 #content{
-    background-color: rgb(216, 185, 230);
+    background-color: rgba(216, 185, 230, 0.4);
 }
 
 #img{
