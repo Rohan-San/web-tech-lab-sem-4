@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program 3</title>
+</head>
+
+<style>
+    h1{
+        color: red;
+        text-align: center;
+    }
+    .textbox1{
+        color: blue;
+        font-size: 30px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Select a country name to find its capital:</h1>
+        <form name="myform">
+            Select country
+            <select name="country" id="sbox1" onclick="myFunction()" required>
+                <option value=""></option>
+                <option value="NEW DELHI">INDIA</option>
+                <option value="CANBERRA">AUSTRALIA</option>
+                <option value="WASHINGTON DC">AMERICA</option>
+                <option value="LONDON">UK</option>
+                <option value="BERLIN">GERMANY</option>
+            </select>
+            <br><br>
+            Capital
+            <input type="text" class="textbox1" id="sbox2">
+        </form>
+    </center>
+    <script>
+        function myFunction()
+        {
+            var a = document.getElementById("sbox1").value;
+            document.getElementById("sbox2").value = a;
+        }
+    </script>
+</body>
+</html>
