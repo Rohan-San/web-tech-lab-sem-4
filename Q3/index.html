@@ -5,6 +5,7 @@
 </head>
 
 <style>
+    
     h1{
         color: red;
         text-align: center;
@@ -17,23 +18,45 @@
 </style>
 
 <body>
-    <center>
-        <h1>Select a country name to find its capital:</h1>
-        <form name="myform">
-            Select country
-            <select name="country" id="sbox1" onclick="myFunction()" required>
-                <option value=""></option>
-                <option value="NEW DELHI">INDIA</option>
-                <option value="CANBERRA">AUSTRALIA</option>
-                <option value="WASHINGTON DC">AMERICA</option>
-                <option value="LONDON">UK</option>
-                <option value="BERLIN">GERMANY</option>
-            </select>
-            <br><br>
-            Capital
-            <input type="text" class="textbox1" id="sbox2">
-        </form>
-    </center>
+    <table border="1" class="center" align="center">
+        <caption style="font-family: Chiller;"><strong>With Tbale</strong></caption>
+        <br><br>
+        <tbody>
+            <tr>
+                <td colspan="2" align="center">
+                    <marquee direction="right" scrollamount="10"><h1>Select a country name to find its capital:</h1></marquee>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    Select country
+                </td>
+                <td align="center">
+                    <form name="myform">
+                        <select name="country" id="sbox1" onclick="myFunction()" required>
+                            <option value=""></option>
+                            <option value="NEW DELHI">INDIA</option>
+                            <option value="CANBERRA">AUSTRALIA</option>
+                            <option value="WASHINGTON DC">AMERICA</option>
+                            <option value="LONDON">UK</option>
+                            <option value="BERLIN">GERMANY</option>
+                        </select>
+
+                    </form>
+                </td>
+            <tr>
+                <td style="text-align: center;">
+                    Capital
+                </td>
+                <td align="center">
+                    <form name="myform">
+                        <input type="text" class="textbox1" id="sbox2">
+                    </form>
+                </td>
+            </tr>
+            </tr>
+        </tbody>
+    </table>
     <script>
         function myFunction()
         {
