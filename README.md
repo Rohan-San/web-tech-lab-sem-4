@@ -5,4 +5,4 @@
 ## Links:
 [Q1](https://web-tech-lab-sem-4-c5eq.vercel.app/) <br/>
 [Q2](https://wtlp2.vercel.app/) <br/>
-[Q3](https://web-tech-lab-sem-4.vercel.app/)
+[Q3](https://wtlp3.vercel.app/)
