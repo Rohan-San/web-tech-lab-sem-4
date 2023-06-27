@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts</title>
+</head>
+
+<body>
+    <h1>Demo: prompt()</h1>
+    <button onClick="myInput()">Click to enter your name:</button>
+    <p id="msg"></p>
+    <script>
+        function myInput() 
+        {
+            let name = prompt("Enter your name: ");
+            if (name == null || name == "") {
+                document.getElementById("msg").innerHTML = "You didn't enter anything!";
+            }
+            else {
+                document.getElementById("msg").innerHTML = "You enetered: " + name;
+            }
+        }
+    </script>
+</body>
+
+</html>
