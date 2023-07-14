@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title> JavaScript Validation </title>
+</head>
+
+<body align = "center">
+    <h2>
+        Username and Password validation in JavaScript
+    </h2>
+    <form action="#" onsubmit="return validation(argu)" method="post">
+        <label> Enter Username: </label>
+        <input type="text" name="username " /><br />
+        <label> Enter Password: </label>
+        <input type="password" name="password" /><br />
+        <label> Confirm Password: </label>
+        <input type="password" name="cpassword" /><br />
+        <input type="submit" value="Login" />
+    </form>
+    <!-- JavaScript code here -->
+    <script type="text/javascript">
+        function validation(form_val) {
+            let username = form_val.username.value;
+            let password = form_val.password.value;
+            let cpassword = form_val.cpassword.value;
+            if (username == "") {
+                alert("Please enter a username.");
+                form_val.username.focus();
+                return false;
+            }
+            if (username.length < 6) {
+                alert("Username must be of at least 6 characters.");
+                form_val.username.focus();
+                return false;
+            }
+            if (password == "") {
+                alert("Please enter a password.");
+                form_val.password.focus();
+                return false;
+            }
+            if (password.length < 6) {
+                alert("Password must contain at least 6 digits.");
+                form_val.password.focus();
+                return false;
+            }
+            if (cpassword == "") {
+                alert("Please enter password to confirm.");
+                form_val.cpassword.focus();
+                return false;
+            }
+            if (password.length >= 6 && cpassword.length >= 6) {
+                if (password != cpassword) {
+                    alert("Passwords do not match. Please retry.");
+                    return false;
+                }
+            }
+            return true;
+        }
+    </script>
+</body>
+
+</html>
