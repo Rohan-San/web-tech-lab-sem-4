@@ -1,0 +1,37 @@
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+    <student>
+        <USN>USN : 3GN07CS001</USN>
+        <name>NAME : SANTHOSH</name>
+        <college>COLLEGE : GNDEC</college>
+        <branch>BRANCH : Computer Science and Engineering</branch>
+        <year>YEAR : 2007</year>
+        <e-mail>E-Mail : santosh@gmail.com</e-mail>
+    </student>
+    <student>
+        <USN>USN : 3GN07IS001</USN>
+        <name>NAME : MANORANJAN</name>
+        <college>COLLEGE : GNDEC</college>
+        <branch>BRANCH : Information Science and Engineering</branch>
+        <year>YEAR : 2007</year>
+        <e-mail>E-Mail : manoranjan@gmail.com</e-mail>
+    </student>
+    <student>
+        <USN>USN : 3GN07EC001</USN>
+        <name>NAME : CHETHAN</name>
+
+        <college>COLLEGE : GNDEC</college>
+        <branch>BRANCH : Electronics and Communication Engineering
+        </branch>
+        <year>YEAR : 2007</year>
+        <e-mail>E-Mail : chethan@gmail.com</e-mail>
+    </student>
+</students>
+
+</html>
