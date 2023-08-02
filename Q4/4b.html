@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PASSWORD VALIDATION</title>
+</head>
+
+<body>
+  <center>
+    <form name="f">
+      <h2>PASSWORD VALIDATION</h2>
+      <br />
+      Password:
+      <input type="password" maxlength="10" size="30" name="pw" />
+      <br />
+      Confirm Password:
+      <input type="password" maxlength="10" size="30" name="cpw" />
+      <br />
+      <input type="button" value="SUBMIT" onClick="pass()" />
+    </form>
+  </center>
+  <script language="javascript">
+    function pass() {
+      var pw = f.pw.value;
+      var cpw = f.cpw.value;
+      if (pw.length < 6) {
+        alert("PASSWORD MUST BE AT LEAST 6 CHARACTERS");
+      } else if (pw !== cpw) {
+        alert("PASSWORDS DO NOT MATCH");
+      } else {
+        alert("PASSWORD VALIDATION SUCCESS");
+      }
+    }
+  </script>
+</body>
+
+</html>
