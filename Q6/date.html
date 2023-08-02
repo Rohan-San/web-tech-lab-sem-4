@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date</title>
-</head>
-<body>
-    <form action="#" onsubmit="return validation(argu)" method="post">
-
+<html>
+  <body>
+    <form>
+      <input type="text" id="dis" /><br />
+      <input type="button" value="Display Date" onclick="display()" />
     </form>
     <script>
-        const date = new Date();
-        let day = date.getDate();
-        let month = date.getMonth() + 1;
-        let year = date.getFullYear();
-        let currentDate = `${day}-${month}-${year}`;
-        console.log(currentDate);
+      function display() {
+        var d = new Date();
+        var date = d.getDate();
+        var month = d.getMonth();
+        month++;
+        var year = d.getFullYear();
+        document.getElementById("dis").value = date + "/" + month + "/" + year;
+      }
     </script>
-  
-</body>
+  </body>
 </html>
