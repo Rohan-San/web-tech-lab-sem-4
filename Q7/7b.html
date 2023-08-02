@@ -1,20 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iter Sum</title>
-</head>
-<body>
-    <script>
-        alert("Enter list of numbers to add.");
-        let n = parseInt(prompt("Enter a number: "));
-        let ans = n;
-        while(confirm("Press OK to input again. Cancel t display sum.") == true) {
-            let res = parseInt(prompt("Enter another number: "));
-            asn += res;
+<html>
+  <head>
+    <title>sum up the number</title>
+  </head>
+  <body>
+    <script> type="text/javascript"
+      function sum() {
+        var res = 0;
+        var a = parseInt(prompt("enter the first number:"));
+        res = res + a;
+        while (confirm("add more number?")) {
+          var c = parseInt(prompt("enter number:"));
+          res = res + c;
         }
-        alert("The sum is: " + ans);
+        alert(" the sum of the number is :" + res);
+      }
+      sum();
     </script>
-</body>
+  </body>
 </html>
