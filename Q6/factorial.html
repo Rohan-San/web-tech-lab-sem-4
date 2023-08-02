@@ -1,39 +1,22 @@
-<!-- Wrong code! -->
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>factorial</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Factorial</title>
-</head>
-
-<body>
+  <body align="center">
     <form name="form">
-        <input type="button" value="factorial" onclick="fact_calc()" />
+      <input type="button" value="factorial" onclick="factorialcalc()" />
     </form>
-    <script>
-        function fact_calc() {
-            let num = parseInt(
-                prompt("Enter number and I'll calculate factorial!")
-            );
-            if (num == 0 || isNaN(num)) {
-                alert(`The Factorial of ${num} cannot be calculated`);
-            } else {
-                for (let i = 2; i <= num; i++) {
-                    console.log("Calculating...");
-                    document.write("<p>" + "calculating..." + "</p>");
-                    setTimeout(() => { }, 50); // simulate long running process
-                }
-                const result = Math.round(
-                    (Math.pow(num, num + 1) / math.pow(-1)) * math.exp(-1 * num)
-                );
-                alert(`${num}! = ` + `${result}`);
-                return true;
-            }
-        }
-    </script>
-</body>
+    <script language="javascript">
+      function factorialcalc() {
+        var number = parseInt(prompt("enter a number, i'll calculate its factorial whole numbers bigger than zero, please"));
 
+        var factorial = 1;
+        for (i = 1; i <= number; i++) {
+          factorial = factorial * i;
+        }
+        alert("the factorial of " + number + " is " + factorial);
+      }
+    </script>
+  </body>
 </html>
