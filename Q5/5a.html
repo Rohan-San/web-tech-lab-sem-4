@@ -1,6 +1,11 @@
 <html>
-
-<body>
+    <body>
+        <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp"
+            onsubmit="return validateemail();">
+            Email: <input type="text" name="email"><br />
+            <input type="submit" value="register">
+        </form>
+    </body>
     <script>
         function validateemail() {
             var x = document.myform.email.value;
@@ -12,13 +17,4 @@
             }
         }
     </script>
-
-    <body>
-        <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp"
-            onsubmit="return validateemail();">
-            Email: <input type="text" name="email"><br />
-            <input type="submit" value="register">
-        </form>
-    </body>
-
 </html>
