@@ -1,0 +1,91 @@
+<html>
+<head>
+    <style type="text/css">
+        .xlink {
+            cursor: crosshair
+        }
+        .hlink {
+            cursor: help
+        }
+        b.headline {
+            color: red;
+            font-size: 24px;
+            font-family: arial;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <b>
+        <a href="mypage.html" class="xlink"> crosslink</a><br>
+        <a href="mypage.html" class="hlink">helplink</a><br>
+    </b>
+    <b class="headline">this is heading style bold</b>
+</body>
+</html>
+
+<!-- 3.Define styles for links -->
+
+<html>
+<head>
+    <style type="text/css">
+        A:link {
+            color: black;
+            text-decoration: none;
+        }
+        A:visited {
+            color: black;
+            text-decoration: none;
+        }
+        A:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        A:active {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="cse.html">cse</a><br>
+    <a href="it.html">it</a><br>
+    <a href="ece.html">ece</a><br>
+    <a href="me.html">me</a><br>
+</body>
+</html>
+
+<!-- 4.Work with layers -->
+
+<html>
+<head>
+<body>
+    <strong>LAYER1 ON TOP</strong>
+    <div style="position:relative; font-size:30px; z-index:2; color:orange"> TOPLAYER</div>
+    <div style="position:relative; font-size:30px; top:-50px; left:10px; z-index:1; color:orange">BOTTOMLAYER</div>
+    <strong> layer2 on top</strong>
+    <div style="position:relative; font-size:30px; z-index:3">TOPLAYER</div>
+    <div style="position:relative; font-size:30px; top:-50px; left:10px; z-index:4"> BOTTOMLAYER</div>
+</body>
+</html>
+
+<!-- 5.Add a customized cursor -->
+
+<html>
+<head>
+    <style type="text/css">
+        .xlink {
+            cursor: crosshair
+        }
+        .hlink {
+            cursor: help
+        }
+    </style>
+</head>
+<body>
+    <b>
+        <a href="homepage.html" class="xlink">CROSSLINK</a><br>
+        <a href="homepage.html" class="hlink">HELPLINK</a><br>
+    </b>
+</body>
+</html>
